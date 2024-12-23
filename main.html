@@ -1,16 +1,81 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Library</title>
+  <style>
+    body {
+      background-color: #f8f8f8;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
+    .book-library {
+      background-color: #ffffff;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .book {
+      display: inline-block;
+      width: 200px;
+      margin: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .book img {
+      width: 100%;
+      height: 300px;
+      border-radius: 5px;
+    }
+
+    .book-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .book-author {
+      color: #777777;
+      margin-bottom: 5px;
+    }
+
+    .price-block {
+      color: #2ecc71;
+      font-size: 14px;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="book-library">
+    <div class="book">
+      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jp" alt="Spy in the Amber">
+      <div class="book-title">Spy in the Amber</div>
+      <div class="book-author">Author: Jane Doe</div>
+      <div class="price-block">Price: $10.99</div>
+    </div>
+    <div class="book">
+      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-C0" alt="Sacred Games">
+      <div class="book-title">Sacred Games</div>
+      <div class="book-author">Author: Vikram Chandra</div>
+      <div class="price-block">Price: $14.99</div>
+    </div>
+    <div class="book">
+      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="Byomkesh Bakshi">
+      <div class="book-title">Byomkesh Bakshi</div>
+      <div class="book-author">Author: Sharadindu Bandyopadhyay</div>
+      <div class="price-block">Price: $9.99</div>
+    </div>
+  </div>
 
 </body>
-
 </html>
